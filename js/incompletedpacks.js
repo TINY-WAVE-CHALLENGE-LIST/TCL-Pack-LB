@@ -1,24 +1,32 @@
-if (rank = 1) {
+    Ship Pack
+    if (rank = 1) {
         return 200;
     }
+    Ship Pack II
     if (rank = 2) {
         return 500;
     }
+    Wave Pack
     if (rank = 3) {
         return 350;
     }
+    Cube Pack
     if (rank = 4) {
         return 250;
     }
+    Robot Pack
     if (rank = 5) {
         return 650;
     }
+    Swing Pack
     if (rank = 6) {
         return 300;
     }
+    Balls Pack
     if (rank = 7) {
         return 550;
     }
+    Daul Pack
     if (rank = 8) {
         return 400;
     }
