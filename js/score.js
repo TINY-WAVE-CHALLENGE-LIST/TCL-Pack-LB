@@ -11,29 +11,66 @@ const scale = 3;
  * @returns {Number}
  */
 export function score(rank, percent, minPercent) {
-    if (rank > 150) {
-        return 0;
+    if (rank = 1) {
+        return 200;
     }
-    if (rank > 75 && percent < 100) {
-        return 0;
+    if (rank = 2) {
+        return 500;
     }
-
-    // Old formula
-    /*
-    let score = (100 / Math.sqrt((rank - 1) / 50 + 0.444444) - 50) *
-        ((percent - (minPercent - 1)) / (100 - (minPercent - 1)));
-    */
-    // New formula
-    let score = (-26*Math.pow(rank-1, 0.45) + 250) *
-        ((percent - (minPercent - 1)) / (100 - (minPercent - 1)));
-
-    score = Math.max(0, score);
-
-    if (percent != 100) {
-        return round(score - score / 3);
+    if (rank = 3) {
+        return 350;
     }
-
-    return Math.max(round(score), 0);
+    if (rank = 4) {
+        return 250;
+    }
+    if (rank = 5) {
+        return 650;
+    }
+    if (rank = 6) {
+        return 300;
+    }
+    if (rank = 7) {
+        return 550;
+    }
+    if (rank = 8) {
+        return 400;
+    }
+    if (rank = 9) {
+        return 150;
+    }
+    if (rank = 10) {
+        return 350;
+    }
+    if (rank = 11) {
+        return 700;
+    }
+    if (rank = 12) {
+        return 300;
+    }
+    if (rank = 13) {
+        return 350;
+    }
+    if (rank = 14) {
+        return 500;
+    }
+    if (rank = 15) {
+        return 500;
+    }
+    if (rank = 16) {
+        return 750;
+    }
+    if (rank = 17) {
+        return 650;
+    }
+    if (rank = 18) {
+        return 450;
+    }
+    if (rank = 19) {
+        return 600;
+    }
+    if (rank = 20) {
+        return 1000;
+    }
 }
 
 export function round(num) {
