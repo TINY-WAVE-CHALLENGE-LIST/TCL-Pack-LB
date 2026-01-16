@@ -35,6 +35,11 @@
             "user": "ClawBuckle",
             "hz": "240",
             "percent": 100
+        },
+        {
+            "user": "Zero Sins",
+            "hz": "240",
+            "percent": 100
         }
     ]
 }
