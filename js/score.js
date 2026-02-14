@@ -73,7 +73,7 @@ export function score(rank, percent, minPercent) {
     }
     // MP VC Pack
     if (rank == 16) {
-        return 100;
+        return 50;
     }
 }
 
